@@ -1,4 +1,4 @@
-# Repo-Session
+# Repo-Session : Understanding Git Basic Commands and Git Workflow
 
 ## Task 1:
 * Create a new directory called 0x03-git in you alx-zero_day repo.
@@ -36,12 +36,27 @@ __A branch is like a copy of your project. It’s used mainly for:__
 
 _Perfect! You did an amazing update in your project and it’s isolated correctly from the main branch._
 
-Ho wait, your manager needs a quick fix in your project and it needs to be deployed now:
+_Ho wait, your manager needs a quick fix in your project and it needs to be deployed now:_
 
-Change branch to main
-Update the file bash/alx by replacing echo "ALX" with echo "ALX School is so cool!"
-Delete the directory js
-Commit your changes (message: “Hot fix”) and push to the origin
+* Change branch to main
+* Update the file bash/alx by replacing echo "ALX" with echo "ALX School is so cool!"
+* Delete the directory js
+* Commit your changes (message: “Hot fix”) and push to the origin
+
+## Task 4
+_Of course, you can also work on the same branch as your co-workers and it’s best if you keep up to date with their changes._
+
+_For this task – and only for this task – please update your file README.md in the main branch from GitHub.com. It’s the only time you are allowed to update and commit from GitHub interface._
+
+_After you have done that, in your terminal:_
+
+* Get all changes of the main branch locally (i.e. your README.md file will be updated)
+* Create a new file up_to_date at the root of your directory and in it, write the git command line used
+* Add up_to_date to git, commit (message: “How to be up to date in git”), and push to the origin
+
+__ALX SE__.
+
+
 
 
 
